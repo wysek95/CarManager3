@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp">
+
+    <TextView
+        android:id="@+id/date_R_TW"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Data" />
+
+    <EditText
+        android:id="@+id/date_R_ET"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:longClickable="false"
+        android:focusable="false"
+        android:inputType="date" />
+
+    <TextView
+        android:id="@+id/liters_R_TW"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ilość litrów" />
+
+    <EditText
+        android:id="@+id/liters_R_ET"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Np. 40L"
+        android:inputType="number|text" />
+
+    <TextView
+        android:id="@+id/cost_R_TW"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Koszt" />
+
+    <EditText
+        android:id="@+id/cost_R_ET"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Np. 150zł"
+        android:inputType="number|text" />
+
+    <TextView
+        android:id="@+id/milage_R_TW"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Licznik kilometrów" />
+
+    <EditText
+        android:id="@+id/milage_R_ET"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Np. 150000km"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/confirm_R_BTTN"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Zatwierdź" />
+</LinearLayout>

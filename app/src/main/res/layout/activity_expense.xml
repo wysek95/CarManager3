@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp">
+
+    <TextView
+        android:id="@+id/date_E_TW"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Data" />
+
+    <EditText
+        android:id="@+id/date_E_ET"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="date" />
+
+    <TextView
+        android:id="@+id/cost_E_TW"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Koszt" />
+
+    <EditText
+        android:id="@+id/cost_E_ET"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Np. 1000ZŁ"
+        android:inputType="number|text" />
+
+    <TextView
+        android:id="@+id/milage_E_TW"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Licznik kilometrów" />
+
+    <EditText
+        android:id="@+id/milage_E_ET"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Np. 130000km"
+        android:inputType="number|text" />
+
+    <TextView
+        android:id="@+id/expense_E_TW"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Rodzaj wydatku" />
+
+    <EditText
+        android:id="@+id/expense_E_ET"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Np. Naprawa klimatyzacji"
+        android:inputType="text" />
+
+    <Button
+        android:id="@+id/confirm_E_BTTN"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Zatwierdź" />
+</LinearLayout>

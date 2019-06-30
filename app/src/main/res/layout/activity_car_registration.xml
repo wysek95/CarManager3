@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp">
+
+    <TextView
+        android:id="@+id/brand_CR_TW"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Marka" />
+
+    <EditText
+        android:id="@+id/brand_CR_ET"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Np. Fiat"
+        android:inputType="text" />
+
+    <TextView
+        android:id="@+id/model_CR_TW"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Model" />
+
+    <EditText
+        android:id="@+id/model_CR_ET"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Np. Panda"
+        android:inputType="text" />
+
+    <TextView
+        android:id="@+id/color_CR_TW"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Kolor" />
+
+    <EditText
+        android:id="@+id/color_CR_ET"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Np. Niebieski"
+        android:inputType="text" />
+
+    <TextView
+        android:id="@+id/plate_CR_TW"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Numer rejestracyny" />
+
+    <EditText
+        android:id="@+id/plate_CR_ET"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Np. WZABC1234"
+        android:inputType="text" />
+
+    <Button
+        android:id="@+id/confirm_CR_BTTN"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Zatwierdź" />
+</LinearLayout>
